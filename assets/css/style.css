@@ -1,0 +1,77 @@
+/* .background {
+    background: cover;
+    color: white;
+} */
+html, body {
+    height: 90%;
+}
+
+
+.background-dimensions {
+    background: url("background-image.jpg") center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    margin: 0px 40px 80px 40px;
+    clear: left;
+    
+}
+
+#profile-pic {
+    margin: 20px 50px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 5px grey;
+    display: inline-flex;
+    float: left;
+
+}
+#name-bold {
+    font-family: 'Alatsi', sans-serif;    
+    font-size: 30px;
+    color: grey;
+    margin-left: 90px;
+
+}
+.links {
+    margin-right: 90px;
+}
+
+.text-center {
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    
+}
+
+.text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.text h1, h2 {
+    text-shadow: 2px 2px grey;
+    font
+
+}
+.text h1 {
+    font-size: 60px;
+}
+
+text h2 {
+    font-size: 40;
+}
+
+.paragraphs {
+    display: inline-flex;
+    clear: left;
+    
+}
+
+.paragraphs p {
+    float: left;
+
+}
+
+
+    
