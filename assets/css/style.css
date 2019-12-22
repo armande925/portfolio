@@ -1,77 +1,165 @@
-/* .background {
-    background: cover;
-    color: white;
-} */
-html, body {
-    height: 90%;
-}
-
-
-.background-dimensions {
-    background: url("background-image.jpg") center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100%;
-    margin: 0px 40px 80px 40px;
-    clear: left;
+body {
+    background-color: white;
     
+    
+
 }
 
-#profile-pic {
-    margin: 20px 50px;
-    height: 300px;
-    width: 300px;
+.background-image {
+    background-image: url(../images/background-image.jpg);
+    width: 80%;
+    height: 550px;
+    margin-top: 30px;
+    padding: 0;
+    max-width: 960px;
+    margin: auto;
+
+}
+
+.my-name {
+    position: 0;
+    left: 0;
+    font-family: 'Alata', sans-serif;
+    text-shadow: darkgray 5px 5px;
+
+}
+
+.headlinks {
+    padding: 27px 0px 0px 0px;
+    position: absolute;
+    right: 0;
+    font-family: 'Alata', sans-serif;
+    text-shadow: darkgray 2px 2px;
+    color: black;
+    
+    
+
+}
+h2 a {
+    text-decoration: none;
+    color: inherit;
+    cursor: none;
+}
+
+
+.top-banner {
+    position: relative;
+    height: 70px;
+    max-width: 960px;
+    margin: auto;
+    align-content: center;
+    background-color: lavender;
+
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#header-font {
+    min-height: 64px;
+    display: table-column;
+  
+    vertical-align: middle;
+    position: absolute;
+  
+}
+
+header {
+    width: 100%;
+    align-content: center;
+    height: 70px;
+}
+
+.bio-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
     box-shadow: 10px 10px 5px grey;
-    display: inline-flex;
-    float: left;
+    border-radius: 8px;
 
 }
-#name-bold {
-    font-family: 'Alatsi', sans-serif;    
-    font-size: 30px;
+
+p {
+    font-size: 25px;
+    margin-top: ;
+}
+
+#floated-text {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Alata', sans-serif;
     color: grey;
-    margin-left: 90px;
 
 }
-.links {
-    margin-right: 90px;
+
+.footer {
+    position: relative;
+    height: 70px;
+    /* width: 100%; */
+    max-width: 960px;
+    margin: auto;
+    align-content: center;
+    background-color: lavender;
+    margin-top: 20px;
 }
 
-.text-center {
-    color: white;
-    font-family: 'Alatsi', sans-serif;
-    
-}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+ 
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 100px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    text-shadow: darkgray 3px 3px;
+  
+  }
 
-.text {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    
-}
-
-.text h1, h2 {
-    text-shadow: 2px 2px grey;
-    font
-
-}
-.text h1 {
-    font-size: 60px;
-}
-
-text h2 {
-    font-size: 40;
-}
-
-.paragraphs {
-    display: inline-flex;
-    clear: left;
-    
-}
-
-.paragraphs p {
+.image {
+    position: relative;
     float: left;
+    margin-left: 10px;
+}
+
+.banner {
+    position: absolute;
+    margin-inline: 0;
+    bottom: 20px;
 
 }
 
+.full-stack {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-shadow: black 3px 3px;
+    color: white;
 
+
+}
+
+.contact-form {
+    font-family: 'Alata', sans-serif;
     
+
+}
+
+#box {
+    width: 200px;
+    height: 50px;
+    float: center;
+    color: white;
+}
