@@ -11,6 +11,9 @@ The coding of this portfolio was an assignment given the second week of school. 
 ::THE CODE::
 I found the placement of certain items to be a challenge. Particularly, struggling with margins for the paragraphs on my "About" page. Again with the placement of text banners on my <img>'s in the "Portfolio" page. The css portion is where I enjoyed coding the most. Just beginning to scrath the surface of what's possible when I gain command of the web/dev tools available to us. Styling <div>'s is the best reward, seeing code turn visual with the click of the refresh button. Even the readme.md was an unexpected jewel. 
 
+::COLLABORATORS::
+https://github.com/adrianromero13
+
 ::CONTACT::
 
 armande@biocentricconsulting.com
