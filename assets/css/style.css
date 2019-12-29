@@ -33,6 +33,7 @@ body {
     color: black;
     
     
+    
 
 }
 h2 a {
@@ -74,8 +75,8 @@ header {
 }
 
 .bio-image {
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
     margin-top: 20px;
     margin-left: 20px;
     box-shadow: 10px 10px 5px grey;
@@ -84,8 +85,9 @@ header {
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
-    margin-top: ;
+    
 }
 
 #floated-text {
@@ -130,13 +132,18 @@ html, body {
 .image {
     position: relative;
     float: left;
-    margin-left: 10px;
+    margin: 1%;
+    padding: 0% 1% 1% 1%;
 }
 
 .banner {
     position: absolute;
-    margin-inline: 0;
+    background-color: grey;
+    width: 92%;
+    /* margin-inline: 0; */
     bottom: 20px;
+    color: white;
+    text-align: center;
 
 }
 
@@ -162,4 +169,26 @@ html, body {
     height: 50px;
     float: center;
     color: white;
+}
+
+.content2 {
+    margin: 0 2% 2% 2%;
+    padding: 0 2% 2% 2%;
+}
+
+.footertext {
+    padding-top: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.portfolio-image {
+    width: 225px;
+    height: 225px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 8px;
 }
